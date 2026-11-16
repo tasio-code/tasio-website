@@ -1,0 +1,5 @@
+[
+ {"name":"Betty Bot","category":"Conversational AI","image":"betty.png","description":"A conversational AI tool that opens up access to an association’s knowledge base, helping members find information through conversation."},
+ {"name":"Skip","category":"Data & analysis","image":"skip.png","description":"An AI-powered data analyst designed for associations and nonprofits. Skip pairs a conversational interface with data analysis."},
+ {"name":"rex","category":"Personalization","image":"rex.png","description":"An AI-powered recommendation engine built to personalize content and experiences."}
+]
