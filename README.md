@@ -51,7 +51,7 @@ Add an object to `src/data/events.json`:
 
 Dates are inclusive calendar dates, not local timestamps. Use ISO `YYYY-MM-DD`; an event moves to past at 00:00 UTC the day after `endDate`. This explicit global convention avoids browser timezone differences. Upcoming events sort by start ascending; past by start descending. Both groups render at build time and refresh on page load, so an already-deployed site updates without rebuilding. An open tab updates on reload. If JavaScript or fetching fails, built HTML remains available (with its build-time grouping).
 
-Optional event artwork: add `"logo": {"file": "cesse.png", "alt": "CESSE"}` and place the asset in `src/assets/events/`. Use `"darkBackground": true` for white logos. Omit `logo` for a text-only entry. Use event-specific or organizer artwork from a verified source and document that source in `CONTENT_REVIEW.md`.
+Optional event artwork: add `"logo": {"file": "cesse.png", "alt": "CESSE"}` and place the asset in `src/assets/events/`. Use `"darkBackground": true` for white logos. For full event graphics, add `"artwork": true` to display an uncropped 16:9 thumbnail. Omit `logo` for a text-only entry. Use event-specific or organizer artwork from a verified source and document that source in `CONTENT_REVIEW.md`.
 
 Use `null` for unknown location or event URL and an empty string for an unknown description; these details are omitted rather than invented. Optional `verificationNote` is internal and never rendered. Build validation rejects malformed dates, reversed ranges, missing speakers, and non-HTTPS event links. Remove sample objects rather than publishing hypothetical appearances.
 

@@ -86,7 +86,13 @@
       "Dray McFarlane"
     ],
     "description": "",
-    "eventUrl": null
+    "eventUrl": null,
+    "logo": {
+      "file": "ift-first-2024.webp",
+      "alt": "IFT FIRST Annual Event and Expo",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(7).png"
   },
   {
     "eventName": "2024 CSRA | NRA Summer Membership, Marketing & Foundation Conference",
@@ -98,12 +104,18 @@
       "Dray McFarlane"
     ],
     "description": "",
-    "eventUrl": null
+    "eventUrl": null,
+    "logo": {
+      "file": "csra-nra-2024.webp",
+      "alt": "Council of State Restaurant Associations",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(6).png"
   },
   {
     "eventName": "128th AFDO Annual Educational Conference",
     "startDate": "2024-06-09",
-    "endDate": "2024-08-12",
+    "endDate": "2024-06-12",
     "location": null,
     "sessionTitle": "Workshop: Chat at Your Service: Integrating AI into Your Food Safety Routine",
     "speakers": [
@@ -111,7 +123,13 @@
     ],
     "description": "",
     "eventUrl": null,
-    "verificationNote": "Source end date is August 12; verify before correcting."
+    "verificationNote": "Corrected from source page\u2019s August 12 to June 12, confirmed by the event artwork on that same page.",
+    "logo": {
+      "file": "afdo-2024.webp",
+      "alt": "128th AFDO Annual Educational Conference, June 9\u201312, 2024",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(5).png"
   },
   {
     "eventName": "EBAA Annual Meeting",
@@ -124,7 +142,13 @@
     ],
     "description": "",
     "eventUrl": null,
-    "verificationNote": "Source end date is August 7; verify before correcting."
+    "verificationNote": "Source end date is August 7; verify before correcting.",
+    "logo": {
+      "file": "ebaa-2024.webp",
+      "alt": "EBAA 2024 Annual Meeting",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(4).png"
   },
   {
     "eventName": "NFusion",
@@ -136,7 +160,13 @@
       "Dray McFarlane"
     ],
     "description": "",
-    "eventUrl": null
+    "eventUrl": null,
+    "logo": {
+      "file": "nfusion-2024.webp",
+      "alt": "NFusion 2024",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(3).png"
   },
   {
     "eventName": "Blue Cypress Innovation Hub \u2014 Washington, DC",
@@ -148,7 +178,13 @@
       "Dray McFarlane"
     ],
     "description": "",
-    "eventUrl": null
+    "eventUrl": null,
+    "logo": {
+      "file": "blue-cypress-hub-2024.webp",
+      "alt": "Blue Cypress Innovation Hub",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(2).png"
   },
   {
     "eventName": "Blue Cypress Innovation Hub \u2014 Chicago",
@@ -160,6 +196,12 @@
       "Thomas Altman"
     ],
     "description": "",
-    "eventUrl": null
+    "eventUrl": null,
+    "logo": {
+      "file": "blue-cypress-hub-2024.webp",
+      "alt": "Blue Cypress Innovation Hub",
+      "artwork": true
+    },
+    "imageSourceUrl": "https://tasiolabs.com/hubfs/Blue%20Cypress%20Innovation%20Hub%20(2).png"
   }
 ]
