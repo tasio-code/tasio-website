@@ -1,11 +1,11 @@
-import {partitionEvents,formatDate} from './events.mjs';
+import {partitionEvents,formatDate,renderEventLogo} from './events.mjs';
 const root = new URL('.', import.meta.url);
 const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function refreshEvents(){
  const response = await fetch(new URL('data/events.json',root));
  if(!response.ok) return;
  const groups = partitionEvents(await response.json());
- const card = e => `<article class="event"><div class="event-date"><time datetime="${escape(e.startDate)}">${formatDate(e.startDate)}</time>${e.startDate!==e.endDate?`<span>to ${formatDate(e.endDate)}</span>`:''}</div><div><p class="eyebrow">${escape(e.eventName)}</p><h3>${escape(e.sessionTitle)}</h3><p>${escape(e.speakers.join(' & '))}${e.location?' · '+escape(e.location):''}</p>${e.description?`<p>${escape(e.description)}</p>`:''}${e.eventUrl?`<a href="${escape(e.eventUrl)}">Event details ↗</a>`:''}</div></article>`;
+ const card = e => `<article class="event"><div class="event-date">${renderEventLogo(e,path=>new URL(path,root).href)}<time datetime="${escape(e.startDate)}">${formatDate(e.startDate)}</time>${e.startDate!==e.endDate?`<span>to ${formatDate(e.endDate)}</span>`:''}</div><div><p class="eyebrow">${escape(e.eventName)}</p><h3>${escape(e.sessionTitle)}</h3><p>${escape(e.speakers.join(' & '))}${e.location?' · '+escape(e.location):''}</p>${e.description?`<p>${escape(e.description)}</p>`:''}${e.eventUrl?`<a href="${escape(e.eventUrl)}">Event details ↗</a>`:''}</div></article>`;
  document.querySelector('#upcoming').innerHTML = groups.upcoming.length ? groups.upcoming.map(card).join('') : '<div class="empty"><span class="small-orbit" aria-hidden="true">↗</span><div><h3>A little room for what’s next.</h3><p>No upcoming appearances are scheduled. We’ll share new dates here as they’re confirmed.</p></div></div>';
  document.querySelector('#past').innerHTML = groups.past.map(card).join('');
 }

@@ -11,7 +11,11 @@
     ],
     "description": "Practical uses of governed, source-bound AI across the standards lifecycle, with an emphasis on human judgment and accountability.",
     "eventUrl": "https://www.cesse.org/index.php?option=com_jevents&task=icalrepeat.detail&evid=141&year=2026&month=08&day=04&Itemid=115",
-    "sourceUrl": "https://www.cesse.org/index.php?option=com_jevents&task=icalrepeat.detail&evid=141&year=2026&month=08&day=04&Itemid=115"
+    "sourceUrl": "https://www.cesse.org/index.php?option=com_jevents&task=icalrepeat.detail&evid=141&year=2026&month=08&day=04&Itemid=115",
+    "logo": {
+      "file": "cesse.png",
+      "alt": "CESSE"
+    }
   },
   {
     "eventName": "IBIS USA 2026",
@@ -27,7 +31,12 @@
     "description": "A discussion of AI adoption across claims, mobility, and collision repair.",
     "eventUrl": "https://www.ibisworldwide.com/ibis-usa-2026/ibis-usa-2026-agenda/",
     "sourceUrl": "https://www.ibisworldwide.com/ibis-usa-2026/ibis-usa-2026-agenda/",
-    "verificationNote": "Organizer page remains labeled provisional; confirm final participation if needed. Date is the session date; conference ran March 23\u201325."
+    "verificationNote": "Organizer page remains labeled provisional; confirm final participation if needed. Date is the session date; conference ran March 23\u201325.",
+    "logo": {
+      "file": "ibis.png",
+      "alt": "IBIS Worldwide",
+      "darkBackground": true
+    }
   },
   {
     "eventName": "digitalNow 2025",
@@ -42,7 +51,11 @@
     "description": "A keynote exploring connections and differences between human cognition and AI, including attention, bias, and intentional use of technology.",
     "eventUrl": "https://sidecar.ai/blog/your-guide-to-digitalnow-2025-whats-happening-in-chicago-this-week",
     "sourceUrl": "https://sidecar.ai/blog/your-guide-to-digitalnow-2025-whats-happening-in-chicago-this-week",
-    "verificationNote": "Uses Sidecar's published agenda label; other promotional material used a longer keynote title. Date is the session date."
+    "verificationNote": "Uses Sidecar's published agenda label; other promotional material used a longer keynote title. Date is the session date.",
+    "logo": {
+      "file": "sidecar.png",
+      "alt": "Sidecar, digitalNow organizer"
+    }
   },
   {
     "eventName": "ASAE MMC+Tech 2025",
@@ -55,7 +68,12 @@
     ],
     "description": "",
     "eventUrl": "https://mmcc.asaecenter.org/2025/alleducation.cfm",
-    "sourceUrl": "https://mmcc.asaecenter.org/2025/alleducation.cfm"
+    "sourceUrl": "https://mmcc.asaecenter.org/2025/alleducation.cfm",
+    "logo": {
+      "file": "asae-mmct.svg",
+      "alt": "ASAE MMC+Tech 2025",
+      "darkBackground": true
+    }
   },
   {
     "eventName": "2024 IFT FIRST \u2014 Annual Event and Expo",

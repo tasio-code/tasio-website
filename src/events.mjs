@@ -16,3 +16,11 @@ export function validateEvents(events) {
     if (e.eventUrl && !/^https:\/\//.test(e.eventUrl)) throw new Error('Event URL must use HTTPS');
   }
 }
+
+// Shared by static generation and the browser refresh so logos survive regrouping.
+export function renderEventLogo(event, assetUrl) {
+  if (!event.logo) return '';
+  if (!/^[a-z0-9-]+\.(png|svg|webp)$/.test(event.logo.file)) throw new Error('Invalid event logo filename');
+  const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  return `<div class="event-logo${event.logo.darkBackground ? ' event-logo--dark' : ''}"><img src="${escape(assetUrl('assets/events/' + event.logo.file))}" alt="${escape(event.logo.alt)}" width="160" height="64" loading="lazy"></div>`;
+}
