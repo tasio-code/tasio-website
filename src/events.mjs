@@ -22,5 +22,5 @@ export function renderEventLogo(event, assetUrl) {
   if (!event.logo) return '';
   if (!/^[a-z0-9-]+\.(png|svg|webp)$/.test(event.logo.file)) throw new Error('Invalid event logo filename');
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  return `<div class="event-logo${event.logo.darkBackground ? ' event-logo--dark' : ''}"><img src="${escape(assetUrl('assets/events/' + event.logo.file))}" alt="${escape(event.logo.alt)}" width="160" height="64" loading="lazy"></div>`;
+  return `<div class="event-logo${event.logo.darkBackground ? ' event-logo--dark' : ''}${event.logo.artwork ? ' event-logo--artwork' : ''}"><img src="${escape(assetUrl('assets/events/' + event.logo.file))}" alt="${escape(event.logo.alt)}" width="160" height="64" loading="lazy"></div>`;
 }

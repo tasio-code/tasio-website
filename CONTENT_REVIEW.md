@@ -11,7 +11,7 @@ Speaker biographies and project descriptions are shortened paraphrases. Introduc
 
 ## Needs owner verification
 
-- AFDO source dates are June 9–August 12, 2024; EBAA dates are June 5–August 7, 2024. These unusually long ranges are preserved verbatim in the data pending confirmation, not silently corrected.
+- AFDO’s text dates originally read June 9–August 12, 2024, but its event graphic explicitly says June 9–12, 2024. The end date is now corrected to June 12 using that evidence. EBAA’s June 5–August 7 range remains pending confirmation; its graphic provides no dates.
 - Source event pages contain no event destination URLs or session descriptions. Locations are only supplied for the two Innovation Hub entries where the city is in the event name. Null/empty fields document the gaps.
 - No future events were found. Add confirmed upcoming appearances to the JSON file.
 - Betty and Skip descriptions and links now follow their current product websites. rex was removed at the owner’s direction; no related projects have been added.
@@ -51,3 +51,16 @@ Downloaded November 16, 2026 from organizer pages. Logos retain their original c
 - Sidecar / digitalNow: https://sidecar.ai/hubfs/sidecar2-small.png (digitalNow organizer page header).
 
 All assets are stored locally. Static and browser rendering share the logo helper; responsive layouts use contained images without cropping.
+
+## Historical event artwork recovered from TasioLabs
+
+All seven historical entries now use the images already associated with them at https://tasiolabs.com/events-media . The original site's misleadingly generic filenames are mapped below, not treated as descriptions. Original colors and full compositions are preserved in optimized 960×540 local WebP copies. Full artwork has a larger, unpadded thumbnail treatment than compact organizer logos. Source URLs also live in each event record as `imageSourceUrl`.
+
+- IFT FIRST: `Blue Cypress Innovation Hub (7).png`
+- CSRA / NRA: `Blue Cypress Innovation Hub (6).png`
+- AFDO: `Blue Cypress Innovation Hub (5).png` — explicitly identifies June 9–12, 2024, supporting the corrected end date.
+- EBAA: `Blue Cypress Innovation Hub (4).png`
+- NFusion: `Blue Cypress Innovation Hub (3).png`
+- Innovation Hub Washington, DC and Chicago: `Blue Cypress Innovation Hub (2).png` — the original page reuses the same image for both.
+
+Files originate under `https://tasiolabs.com/hubfs/`. All six downloaded graphics were visually inspected and matched to their original event entries. No unrelated partner or sponsor imagery is substituted.
