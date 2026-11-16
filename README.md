@@ -21,7 +21,7 @@ Output goes to ignored `dist/`. `BASE_PATH` defaults to `/` locally. The workflo
 
 ## GitHub Pages setup
 
-The workflow is included, but the connected integration cannot change repository Pages settings (GitHub returned HTTP 403). A repository admin must select **Settings → Pages → Build and deployment → Source: GitHub Actions** once. Merge this PR to trigger the first deployment. PRs run the build and tests without deployment; subsequent pushes/merges to `main` deploy automatically. No custom domain is configured.
+GitHub Pages is configured to use GitHub Actions (enabled by the repository owner). Merge this PR to trigger the first deployment. PRs run the build and tests without deployment; subsequent pushes/merges to `main` deploy automatically. No custom domain is configured.
 
 ## Editing
 

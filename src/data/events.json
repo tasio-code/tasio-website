@@ -1,9 +1,147 @@
 [
- {"eventName":"2024 IFT FIRST — Annual Event and Expo","startDate":"2024-07-14","endDate":"2024-07-17","location":null,"sessionTitle":"Exploring Artificial Intelligence for Next-Level Food Innovation","speakers":["Thomas Altman","Dray McFarlane"],"description":"","eventUrl":null},
- {"eventName":"2024 CSRA | NRA Summer Membership, Marketing & Foundation Conference","startDate":"2024-07-09","endDate":"2024-07-11","location":null,"sessionTitle":"AI for Your Association","speakers":["Dray McFarlane"],"description":"","eventUrl":null},
- {"eventName":"128th AFDO Annual Educational Conference","startDate":"2024-06-09","endDate":"2024-08-12","location":null,"sessionTitle":"Workshop: Chat at Your Service: Integrating AI into Your Food Safety Routine","speakers":["Dray McFarlane"],"description":"","eventUrl":null,"verificationNote":"Source end date is August 12; verify before correcting."},
- {"eventName":"EBAA Annual Meeting","startDate":"2024-06-05","endDate":"2024-08-07","location":null,"sessionTitle":"The Power of AI — Redefining the Future; AI Unveiled: Harnessing Generative Technologies","speakers":["Dray McFarlane"],"description":"","eventUrl":null,"verificationNote":"Source end date is August 7; verify before correcting."},
- {"eventName":"NFusion","startDate":"2024-06-04","endDate":"2024-06-04","location":null,"sessionTitle":"Harnessing Generative AI: Empowering the Association Knowledge Cycle","speakers":["Dray McFarlane"],"description":"","eventUrl":null},
- {"eventName":"Blue Cypress Innovation Hub — Washington, DC","startDate":"2024-05-14","endDate":"2024-05-14","location":"Washington, DC","sessionTitle":"Innovation in the Age of AI","speakers":["Dray McFarlane"],"description":"","eventUrl":null},
- {"eventName":"Blue Cypress Innovation Hub — Chicago","startDate":"2024-05-02","endDate":"2024-05-02","location":"Chicago","sessionTitle":"Innovation in the Age of AI","speakers":["Thomas Altman"],"description":"","eventUrl":null}
+  {
+    "eventName": "CESSE Webinar",
+    "startDate": "2026-08-04",
+    "endDate": "2026-08-04",
+    "location": "Online",
+    "sessionTitle": "How AI is Transforming From Standards Documents to Standards Intelligence: How SDOs Can Use Governed AI to Find, Compare, Apply, and Interpret Standards",
+    "speakers": [
+      "Thomas Altman",
+      "Rob Barnes"
+    ],
+    "description": "Practical uses of governed, source-bound AI across the standards lifecycle, with an emphasis on human judgment and accountability.",
+    "eventUrl": "https://www.cesse.org/index.php?option=com_jevents&task=icalrepeat.detail&evid=141&year=2026&month=08&day=04&Itemid=115",
+    "sourceUrl": "https://www.cesse.org/index.php?option=com_jevents&task=icalrepeat.detail&evid=141&year=2026&month=08&day=04&Itemid=115"
+  },
+  {
+    "eventName": "IBIS USA 2026",
+    "startDate": "2026-03-24",
+    "endDate": "2026-03-24",
+    "location": "Grand Hyatt Scottsdale, Phoenix",
+    "sessionTitle": "AI and Mobility \u2014 The Real State of Play",
+    "speakers": [
+      "Dray McFarlane",
+      "James Spears",
+      "Keith Crerar"
+    ],
+    "description": "A discussion of AI adoption across claims, mobility, and collision repair.",
+    "eventUrl": "https://www.ibisworldwide.com/ibis-usa-2026/ibis-usa-2026-agenda/",
+    "sourceUrl": "https://www.ibisworldwide.com/ibis-usa-2026/ibis-usa-2026-agenda/",
+    "verificationNote": "Organizer page remains labeled provisional; confirm final participation if needed. Date is the session date; conference ran March 23\u201325."
+  },
+  {
+    "eventName": "digitalNow 2025",
+    "startDate": "2025-11-04",
+    "endDate": "2025-11-04",
+    "location": "Chicago",
+    "sessionTitle": "The Brain and AI",
+    "speakers": [
+      "Param Dedhia",
+      "Thomas Altman"
+    ],
+    "description": "A keynote exploring connections and differences between human cognition and AI, including attention, bias, and intentional use of technology.",
+    "eventUrl": "https://sidecar.ai/blog/your-guide-to-digitalnow-2025-whats-happening-in-chicago-this-week",
+    "sourceUrl": "https://sidecar.ai/blog/your-guide-to-digitalnow-2025-whats-happening-in-chicago-this-week",
+    "verificationNote": "Uses Sidecar's published agenda label; other promotional material used a longer keynote title. Date is the session date."
+  },
+  {
+    "eventName": "ASAE MMC+Tech 2025",
+    "startDate": "2025-05-12",
+    "endDate": "2025-05-12",
+    "location": null,
+    "sessionTitle": "Grounded in Knowledge: Making Generative AI Reliable",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": "https://mmcc.asaecenter.org/2025/alleducation.cfm",
+    "sourceUrl": "https://mmcc.asaecenter.org/2025/alleducation.cfm"
+  },
+  {
+    "eventName": "2024 IFT FIRST \u2014 Annual Event and Expo",
+    "startDate": "2024-07-14",
+    "endDate": "2024-07-17",
+    "location": null,
+    "sessionTitle": "Exploring Artificial Intelligence for Next-Level Food Innovation",
+    "speakers": [
+      "Thomas Altman",
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null
+  },
+  {
+    "eventName": "2024 CSRA | NRA Summer Membership, Marketing & Foundation Conference",
+    "startDate": "2024-07-09",
+    "endDate": "2024-07-11",
+    "location": null,
+    "sessionTitle": "AI for Your Association",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null
+  },
+  {
+    "eventName": "128th AFDO Annual Educational Conference",
+    "startDate": "2024-06-09",
+    "endDate": "2024-08-12",
+    "location": null,
+    "sessionTitle": "Workshop: Chat at Your Service: Integrating AI into Your Food Safety Routine",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null,
+    "verificationNote": "Source end date is August 12; verify before correcting."
+  },
+  {
+    "eventName": "EBAA Annual Meeting",
+    "startDate": "2024-06-05",
+    "endDate": "2024-08-07",
+    "location": null,
+    "sessionTitle": "The Power of AI \u2014 Redefining the Future; AI Unveiled: Harnessing Generative Technologies",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null,
+    "verificationNote": "Source end date is August 7; verify before correcting."
+  },
+  {
+    "eventName": "NFusion",
+    "startDate": "2024-06-04",
+    "endDate": "2024-06-04",
+    "location": null,
+    "sessionTitle": "Harnessing Generative AI: Empowering the Association Knowledge Cycle",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null
+  },
+  {
+    "eventName": "Blue Cypress Innovation Hub \u2014 Washington, DC",
+    "startDate": "2024-05-14",
+    "endDate": "2024-05-14",
+    "location": "Washington, DC",
+    "sessionTitle": "Innovation in the Age of AI",
+    "speakers": [
+      "Dray McFarlane"
+    ],
+    "description": "",
+    "eventUrl": null
+  },
+  {
+    "eventName": "Blue Cypress Innovation Hub \u2014 Chicago",
+    "startDate": "2024-05-02",
+    "endDate": "2024-05-02",
+    "location": "Chicago",
+    "sessionTitle": "Innovation in the Age of AI",
+    "speakers": [
+      "Thomas Altman"
+    ],
+    "description": "",
+    "eventUrl": null
+  }
 ]
