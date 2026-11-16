@@ -40,3 +40,14 @@ The design is an initial direction for feedback: warm paper, restrained muted bl
 New records use the session date (rather than the entire conference span). Source URLs are stored alongside the event data. These entries document published speaking listings, not independent confirmation of attendance. No future appearances were verified as of the research date.
 
 Additional leads not added: ASAE’s 2026 MMC+Tech search index lists Dray in “Build Your AI Toolkit” on May 27, but its app’s fetched page does not expose session details. ASAE participant rosters prove registration, not speaking. Sidecar introductory webinars with Thomas appear in third-party listings; repeating Zoom registration links do not independently establish historical dates. Unrelated Ecolab/Leucine results concern a different Thomas Altman and were excluded.
+
+## Event logo sources
+
+Downloaded November 16, 2026 from organizer pages. Logos retain their original colors and proportions; no substitutes are fabricated. Sidecar is explicitly labeled as the digitalNow organizer, not an event-specific 2025 mark. Events without suitable recovered artwork remain text-only.
+
+- CESSE: https://www.cesse.org/assets/site/logo.png (homepage logo).
+- IBIS Worldwide: https://www.ibisworldwide.com/wp-content/uploads/2021/12/ibis-logo-light.png (IBIS USA page header; white logo on dark background).
+- ASAE MMC+Tech 2025: https://mmcc.asaecenter.org/2025/images/content/25-logo-org-5.svg (2025 event header; white/yellow mark on dark background).
+- Sidecar / digitalNow: https://sidecar.ai/hubfs/sidecar2-small.png (digitalNow organizer page header).
+
+All assets are stored locally. Static and browser rendering share the logo helper; responsive layouts use contained images without cropping.
