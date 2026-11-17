@@ -86,3 +86,9 @@ The owner's firsthand company description supplies the public history, two-perso
 Home now covers the team, process, and brief 2020/2021 history. Projects presents Betty as an experiment that became a company with its own team and Skip as a product managed through the wider Blue Cypress organization. Anonymous examples remain experiments, not offers for open-ended consulting. Contact and Projects explain shared investment, focused scope, realistic expectations, and plans for continuation/support beyond Tasio. Speaking is framed as an exchange with the association community.
 
 Private background supplied for editorial context is omitted from public copy. No exclusivity claims are made. No guarantees of productization or Blue Cypress funding/support are made. Experience descriptions (“more than a decade” / “nearly two decades”) reflect the owner's current account, not calculated employment start dates.
+
+## Experiment-first copy refinement — November 17, 2026
+
+Home now opens with a question and a single introductory paragraph centered on experimentation for associations and nonprofits. Founder names appear in speaker information, not company or contact introductions. Headcount is omitted from public copy and metadata. Blue Cypress remains a subtle footer affiliation and a later explanation of resources for proven ideas, plus the specific product histories on Projects. Home product cards keep the product summaries; Projects retains the fuller origin stories.
+
+The process and experiment invitation acknowledge uncertainty and learning from unsuccessful tests, without promises of outcomes. Scope, budget, and continuation planning remain explicit. The supplied company logo and existing factual history are unchanged.
