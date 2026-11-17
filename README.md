@@ -49,7 +49,7 @@ Add an object to `src/data/events.json`:
 }
 ```
 
-Dates are inclusive calendar dates, not local timestamps. Use ISO `YYYY-MM-DD`; an event moves to past at 00:00 UTC the day after `endDate`. This explicit global convention avoids browser timezone differences. Upcoming events sort by start ascending; past by start descending. Both groups render at build time and refresh on page load, so an already-deployed site updates without rebuilding. An open tab updates on reload. If JavaScript or fetching fails, built HTML remains available (with its build-time grouping).
+Dates are inclusive calendar dates, not local timestamps. Use ISO `YYYY-MM-DD`; an event moves to past at 00:00 UTC the day after `endDate`. This explicit global convention avoids browser timezone differences. Upcoming events sort by start ascending; past by start descending. Both groups render at build time and refresh on page load, so an already-deployed site updates without rebuilding. An open tab updates on reload. The entire “Coming up” section is hidden when there are no upcoming appearances, both in the built HTML and after page-load regrouping. If JavaScript or fetching fails, built HTML remains available (with its build-time grouping).
 
 Optional event artwork: add `"logo": {"file": "cesse.png", "alt": "CESSE"}` and place the asset in `src/assets/events/`. Use `"darkBackground": true` for white logos. For full event graphics, add `"artwork": true` to display an uncropped 16:9 thumbnail. Omit `logo` for a text-only entry. Use event-specific or organizer artwork from a verified source and document that source in `CONTENT_REVIEW.md`.
 
