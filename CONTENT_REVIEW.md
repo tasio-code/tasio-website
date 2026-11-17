@@ -78,3 +78,11 @@ The owner-supplied leaf reference is represented by a minimal SVG path in `src/a
 Orbit accents use screen approximations for the owner's Pantone references: 2582 U purple `#bb76cf` and 3395 U teal `#00c795`. These are RGB approximations, not claims of an exact print match; the existing logo artwork is unchanged. Orbit geometry and dot centers share one SVG coordinate system. The purple and teal dots sit on the circle at 225° and 45° respectively (within rounding precision), preventing responsive drift.
 
 Dot colors are screen approximations of the requested uncoated Pantone references, not guaranteed print matches: 2582 U `#BB76CF` and 3395 U `#00C795` (reference tables: https://printcolorchart.com/pantone-colors/2582-u/ and https://printcolorchart.com/pantone-colors/3395-u/). The leaf uses `#60BA88` to follow the supplied leaf reference. Existing logo artwork and the broader muted palette remain unchanged.
+
+## Company story and project positioning — November 17, 2026
+
+The owner's firsthand company description supplies the public history, two-person team, association software background, experiment process, and pathways through Blue Cypress. The public Blue Cypress homepage (https://bluecypress.io/) also identifies its family/ecosystem and links to Betty and Skip. Public copy uses “Tasio”; the supplied TasioLabs logo and historical event names remain intact.
+
+Home now covers the team, process, and brief 2020/2021 history. Projects presents Betty as an experiment that became a company with its own team and Skip as a product managed through the wider Blue Cypress organization. Anonymous examples remain experiments, not offers for open-ended consulting. Contact and Projects explain shared investment, focused scope, realistic expectations, and plans for continuation/support beyond Tasio. Speaking is framed as an exchange with the association community.
+
+Private background supplied for editorial context is omitted from public copy. No exclusivity claims are made. No guarantees of productization or Blue Cypress funding/support are made. Experience descriptions (“more than a decade” / “nearly two decades”) reflect the owner's current account, not calculated employment start dates.

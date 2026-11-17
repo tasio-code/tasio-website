@@ -19,3 +19,10 @@
 .experiment-detail h4{font-family:'Courier New',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px}
 .experiment-detail p{margin-bottom:22px}
 @media(max-width:650px){.project--experiment{display:block}.project--experiment .project-art{margin-bottom:24px}.project--experiment h3{font-size:30px}.experiments{gap:45px}}
+
+.project-journey{border-top:1px solid var(--line);margin-top:20px;padding-top:20px}
+.project-journey h4{font:600 11px/1.7 'Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.story,.experiment-invitation{border-top:1px solid var(--line);padding-top:48px;display:grid;grid-template-columns:1fr 1fr;gap:70px}
+.story-steps article+article{border-top:1px solid var(--line);padding-top:22px;margin-top:22px}
+.story-steps p{margin-top:10px}.speaking-context{max-width:650px}
+@media(max-width:650px){.story,.experiment-invitation{grid-template-columns:1fr;gap:30px}}

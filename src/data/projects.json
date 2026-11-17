@@ -4,14 +4,18 @@
     "category": "Association knowledge",
     "image": "betty.png",
     "url": "https://meetbetty.ai/",
-    "description": "An AI knowledge system for professional associations. Betty draws on an organization’s own content to help members and staff find answers, explore resources, and navigate services through conversation."
+    "description": "An AI knowledge system for professional associations. Betty draws on an organization’s own content to help members and staff find answers, explore resources, and navigate services through conversation.",
+    "context": "From experiment to company",
+    "journey": "A request to “put ChatGPT on our website” became an exploration of how an association’s own knowledge could support its members. That work grew into Betty, now a company with a team of its own in the Blue Cypress family."
   },
   {
     "name": "Skip",
     "category": "Data & analysis",
     "image": "skip.svg",
     "url": "https://askskip.ai/",
-    "description": "An AI data analyst for associations. Skip lets teams ask business questions in plain language and explore interactive reports, connecting with existing systems to make data analysis more accessible."
+    "description": "An AI data analyst for associations. Skip lets teams ask business questions in plain language and explore interactive reports, connecting with existing systems to make data analysis more accessible.",
+    "context": "From experiment to product",
+    "journey": "Skip grew into a product maintained and managed through the wider Blue Cypress organization, with resources beyond Tasio’s two-person team."
   },
   {
     "name": "Connecting people and knowledge",
