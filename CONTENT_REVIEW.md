@@ -70,3 +70,11 @@ Files originate under `https://tasiolabs.com/hubfs/`. All six downloaded graphic
 The two experiment descriptions are based solely on the owner’s firsthand project summaries in the brief. Titles are descriptive editorial labels, not product names. No client names, industry identifiers, proprietary “fingerprint” terminology, metrics, quotations, or implied permission/endorsement are included. Benefits are qualitative; conference-planning savings are attributed to team feedback. The clustering project is explicitly a starting point for human review, not an automated final program.
 
 Both illustrations are AI-generated conceptual artwork created for this site. They contain no client data or screenshots and are decorative, with empty alt text beside the explanatory copy. Optimized WebP copies are stored locally. Products remain on the home page; the fuller experiment write-ups live on Projects.
+
+## Leaf favicon and home illustration — November 17, 2026
+
+The owner-supplied leaf reference is represented by a minimal SVG path in `src/assets/leaf.svg`, with transparent surroundings and a green fill approximating the supplied raster. All four pages reference it as the favicon; the home orbit diagram reuses that same asset instead of the unbranded “t.” monogram.
+
+Orbit accents use screen approximations for the owner's Pantone references: 2582 U purple `#bb76cf` and 3395 U teal `#00c795`. These are RGB approximations, not claims of an exact print match; the existing logo artwork is unchanged. Orbit geometry and dot centers share one SVG coordinate system. The purple and teal dots sit on the circle at 225° and 45° respectively (within rounding precision), preventing responsive drift.
+
+Dot colors are screen approximations of the requested uncoated Pantone references, not guaranteed print matches: 2582 U `#BB76CF` and 3395 U `#00C795` (reference tables: https://printcolorchart.com/pantone-colors/2582-u/ and https://printcolorchart.com/pantone-colors/3395-u/). The leaf uses `#60BA88` to follow the supplied leaf reference. Existing logo artwork and the broader muted palette remain unchanged.
