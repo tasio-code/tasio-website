@@ -12,5 +12,23 @@
     "image": "skip.svg",
     "url": "https://askskip.ai/",
     "description": "An AI data analyst for associations. Skip lets teams ask business questions in plain language and explore interactive reports, connecting with existing systems to make data analysis more accessible."
+  },
+  {
+    "name": "Connecting people and knowledge",
+    "kind": "experiment",
+    "category": "Embeddings & discovery",
+    "image": "semantic-connections.webp",
+    "description": "An experiment in finding useful connections between an organization’s content and the people who contribute to it.",
+    "approach": "We used embedding models to represent content and contributors’ published work in a shared space. Those representations made it possible to suggest relevant reading, conference sessions, and people with related interests.",
+    "outcome": "The approach was quick to implement, economical to run, and well received. It also opened up possibilities for matching reviewers and mentors—using primarily embeddings rather than larger generative language models."
+  },
+  {
+    "name": "A head start on conference planning",
+    "kind": "experiment",
+    "category": "Clustering & program planning",
+    "image": "proposal-clusters.webp",
+    "description": "Helping a conference team make sense of a large collection of speaking proposals before the detailed planning begins.",
+    "approach": "We combined clustering techniques with AI-assisted passes to group related proposals into an initial structure for sessions and tracks. The aim was to support a demanding volunteer-led process, giving reviewers something useful to refine.",
+    "outcome": "The team reported meaningful savings in time and effort. The experiment provided a practical starting point while leaving the decisions about the final program with the people responsible for it."
   }
 ]

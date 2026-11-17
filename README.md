@@ -27,7 +27,7 @@ GitHub Pages is configured to use GitHub Actions (enabled by the repository owne
 
 - Page copy and templates: `scripts/build.mjs`
 - Colors, layout, responsive styles: `src/styles.css` (muted blue `#466b8a`, warm paper `#f6f5f0`; original logo colors retained)
-- Project copy: `src/data/projects.json`
+- Product and experiment copy: `src/data/projects.json`. Entries with `kind: "experiment"` appear in the Projects experiment section and use `approach` and `outcome` fields; product entries can include a `url`. Experiment titles are descriptive labels, and their images are conceptual artwork.
 - Events: `src/data/events.json`
 - Contact endpoint: `src/data/site.json`
 - Original downloaded assets: `src/assets/`
