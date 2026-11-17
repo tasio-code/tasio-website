@@ -26,3 +26,5 @@
 .story-steps article+article{border-top:1px solid var(--line);padding-top:22px;margin-top:22px}
 .story-steps p{margin-top:10px}.speaking-context{max-width:650px}
 @media(max-width:650px){.story,.experiment-invitation{grid-template-columns:1fr;gap:30px}}
+
+.hero-description{font-size:18px;line-height:1.75;max-width:470px}
