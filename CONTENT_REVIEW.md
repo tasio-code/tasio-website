@@ -92,3 +92,9 @@ Private background supplied for editorial context is omitted from public copy. N
 Home now opens with a question and a single introductory paragraph centered on experimentation for associations and nonprofits. Founder names appear in speaker information, not company or contact introductions. Headcount is omitted from public copy and metadata. Blue Cypress remains a subtle footer affiliation and a later explanation of resources for proven ideas, plus the specific product histories on Projects. Home product cards keep the product summaries; Projects retains the fuller origin stories.
 
 The process and experiment invitation acknowledge uncertainty and learning from unsuccessful tests, without promises of outcomes. Scope, budget, and continuation planning remain explicit. The supplied company logo and existing factual history are unchanged.
+
+## Copy and events polish — November 17, 2026
+
+Home browser title is now simply “Tasio”; other pages keep their descriptive title suffix. Projects copy focuses on useful work gaining traction, without explaining organizational anonymity or contrasting experiments with products. Speaker bios follow the original speaker page (https://tasiolabs.com/events-media-0) in shortened paraphrase; Thomas’s tenure count is omitted. Every Blue Cypress reference in generated copy links to its homepage.
+
+The upcoming section is hidden when empty at build time and after client-side date regrouping, per the updated owner preference. This supersedes the earlier visible empty-state requirement; past appearances remain visible. Existing UTC date behavior is preserved.
